@@ -1,16 +1,40 @@
 body{
     background-color: aqua;
+    animation-name: example;
+    animation-duration: 0.4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+
 }
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+   25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
 .container{
  
+ 
 }
+
 .header{
     display: flex;
     justify-content: space-between;
 }
 .image{
     border: 4px rgb(185, 11, 11) solid;
-    padding : 5px;
+    
+}
+img{
+    padding : 5px; 
+    animation-duration: 41s; 
+    animation:spin 1s linear infinite;
+}
+ 
+ 
+@keyframes spin { 100% { transform:rotate(360deg);}   
+       
      
     
 }
