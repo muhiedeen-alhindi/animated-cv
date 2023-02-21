@@ -32,7 +32,8 @@ img{
    
 }
 img:hover{
-    animation-duration: 41s; 
+    transform: scale(2.5)rotate(180deg);
+     
     animation:spin 1s linear infinite;
     
     
