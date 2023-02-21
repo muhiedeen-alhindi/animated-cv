@@ -24,12 +24,13 @@ body{
 }
 .image{
     border: 4px rgb(185, 11, 11) solid;
-    
+    border-radius: 50%;
 }
 img{
     padding : 5px; 
     animation-duration: 41s; 
     animation:spin 1s linear infinite;
+    border-radius: 50%;
 }
  
  
