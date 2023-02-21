@@ -1,4 +1,4 @@
-body{
+body:hover{
     background-color: aqua;
     animation-name: example;
     animation-duration: 0.4s;
@@ -28,9 +28,13 @@ body{
 }
 img{
     padding : 5px; 
+    border-radius: 50%;
+   
+}
+img:hover{
     animation-duration: 41s; 
     animation:spin 1s linear infinite;
-    border-radius: 50%;
+    
 }
  
  
