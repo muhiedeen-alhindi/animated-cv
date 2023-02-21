@@ -1,0 +1,57 @@
+body{
+    background-color: aqua;
+}
+.container{
+ 
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    border: 4px rgb(185, 11, 11) solid;
+    padding : 5px;
+     
+    
+}
+.name{
+    margin-right: 58%;
+     
+}
+ .summary{
+    display: flex;
+     
+
+ }
+ .summary p{
+    margin: 0px 100px;
+    
+    padding: 10px  ;
+ }
+ .experience{
+    display:flex;
+    justify-content: flex-start;
+ }
+ .experience ol{
+    margin-left: 8vw;
+    
+    padding: 10px 
+ }
+ .skills{
+    display: flex;
+    justify-content: space-between;
+    padding :0px 
+ }
+ ul{
+    margin-right: 12vw;
+    
+ }
+ .eduction{
+    display: flex;
+    justify-content: space-between;
+ }
+ .eduction p{
+    margin: 0px 100px;
+    
+    padding: 10px  ;
+ }
